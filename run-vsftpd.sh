@@ -56,6 +56,7 @@ cat << EOB
 
 	SERVER SETTINGS
 	---------------
+	- VSFTPD version: $(vsftpd -v)
 	· FTP User: $FTP_USER
 	· FTP Password: $FTP_PASS
 	· Log file: $LOG_FILE
